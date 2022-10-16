@@ -39,11 +39,97 @@ body {
 .hero__container {
   width: 100%;
   height: 92vh !important;
+  position: relative;
 
   .hero__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .hero__form {
+    position: absolute;
+    top: 60px;
+    right: 150px;
+  }
+}
+
+// Form
+
+.form__container {
+  width: 550px;
+  height: 700px;
+  border-radius: 15px;
+  background-color: white;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  .formCard__form {
+    .formCard__title {
+      padding-top: 75px;
+      font-size: 22px;
+      font-weight: 600;
+    }
+    .formCard__sub-title {
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .formCard__form-Wrapper {
+      background: rgba(128, 128, 128, 0.087);
+      height: 150px;
+      border-radius: 25px;
+    }
+
+    input {
+      padding: 9px 7px;
+      border-radius: 10px;
+      background: rgba(128, 128, 128, 0.087);
+      border: none;
+      &::placeholder {
+        padding-left: 10px;
+      }
+    }
+    select {
+      padding: 9px 7px;
+      border-radius: 10px;
+      background: rgba(128, 128, 128, 0.087);
+      border: none;
+      &::placeholder {
+        padding-left: 10px;
+      }
+    }
+
+    .stepper1__input {
+      display: flex;
+      .stepper1__input-field {
+        width: 48%;
+      }
+    }
+    .footerCard__btn {
+      padding: 0 30px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between !important;
+      position: absolute;
+      bottom: 50px;
+      left: 0;
+
+      .formCard__previous-btn {
+        padding: 7px 10px 7px 0px;
+        color: dodgerblue;
+        font-weight: 500;
+        cursor: pointer;
+      }
+
+      .formCard__next-btn {
+        // padding: 8px 21px 8px 40px;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-left: auto;
+      }
+    }
   }
 }
 
@@ -129,7 +215,6 @@ body {
   width: 100%;
   padding: 100px 150px;
   margin-top: 120px;
-  margin-bottom: 60px;
 
   .contactUs__title {
     h1 {
@@ -156,3 +241,23 @@ body {
 }
 
 /* -------------- Style for Contact US Component ends------------ */
+
+/* -------------- Style for Footer Component starts------------ */
+
+.footer__container {
+  width: 100%;
+  padding: 70px 150px;
+
+  .footer__logo {
+    img {
+      width: 160px;
+    }
+  }
+  .footer__copyRights {
+    h2 {
+      font-size: 19px;
+    }
+  }
+}
+
+/* -------------- Style for FooterComponent ends------------ */
