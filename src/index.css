@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  color: black !important;
+  font-size: large !important;
+}
+
+.navbar {
+  height: 70px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav__logo {
+  width: 100px;
+}
+
+.nav-item {
+  transition: 0.5s;
+  padding: 3px 10px;
+}
+
+.nav-item:hover {
+  border-radius: 15px;
+  background-color: rgba(164, 166, 167, 0.273) !important;
+}
