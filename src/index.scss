@@ -118,10 +118,41 @@ body {
         color: #00cdc6cd;
         font-size: 23px;
       }
-      hr {
-        color: 1px solid rgba(128, 128, 128, 0.498);
-      }
     }
   }
 }
 /* -------------- Style for Achievements Component ends------------ */
+
+/* -------------- Style for Contact US Component starts------------ */
+
+.contactUs__container {
+  width: 100%;
+  padding: 100px 150px;
+  margin-top: 120px;
+  margin-bottom: 60px;
+
+  .contactUs__title {
+    h1 {
+      font-size: 50px;
+      font-weight: 600;
+    }
+  }
+}
+
+.contactUs__card {
+  .card {
+    border: none;
+
+    .card-body {
+      h6 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 24px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+/* -------------- Style for Contact US Component ends------------ */
