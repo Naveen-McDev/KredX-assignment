@@ -1,0 +1,85 @@
+/* -------------- Import Google Font Poppins------------ */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* -------------- Style for Navbar Component starts------------ */
+.navbar {
+  height: 70px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+
+  a {
+    color: black !important;
+    font-size: large !important;
+  }
+
+  .nav__logo {
+    width: 100px;
+  }
+
+  .nav-item {
+    transition: 0.5s;
+    padding: 3px 10px;
+
+    &:hover {
+      border-radius: 15px;
+      background-color: #00cdc61a;
+    }
+  }
+}
+
+/* -------------- Style for Navbar Component ends------------ */
+
+/* -------------- Style for Hero Component starts------------ */
+.hero__container {
+  width: 100%;
+  height: 92vh !important;
+
+  .hero__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* -------------- Style for Hero Component ends------------ */
+
+/* -------------- Style for Feature Component starts------------ */
+.features__container {
+  width: 100%;
+  padding: 100px 150px;
+
+  .features__title {
+    h1 {
+      font-size: 48px;
+      font-weight: 300;
+      line-height: 1;
+
+      span {
+        color: #00cdc6;
+      }
+    }
+  }
+}
+
+.card {
+  border: none;
+  width: 400px;
+  transition: 0.5s;
+  &:hover {
+    background-color: #00cdc61a;
+  }
+
+  .card-body {
+    div {
+      height: 55px !important;
+    }
+  }
+}
+
+/* -------------- Style for Feature Component ends------------ */

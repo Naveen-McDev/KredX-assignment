@@ -3,13 +3,13 @@ import brandLogo from "../asset/brandLogo.svg";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-light px-5">
-      <div class="container-fluid">
-        <a class="navbar-brand d-flex align-items-center" href="/">
+    <nav className="navbar navbar-expand-lg bg-light px-5">
+      <div className="container-fluid">
+        <a className="navbar-brand d-flex align-items-center" href="/">
           <img src={brandLogo} alt="brand-logo" className="nav__logo" />
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -17,35 +17,35 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse justify-content-end"
+          className="collapse navbar-collapse justify-content-end"
           id="navbarNav"
         >
-          <ul class="navbar-nav mr-auto gap-3">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">
+          <ul className="navbar-nav mr-auto gap-3">
+            <li className="nav-item">
+              <a className="nav-link" aria-current="page" href="/">
                 Menu 1
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/">
+            <li className="nav-item">
+              <a className="nav-link" href="/">
                 Menu 2
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/">
+            <li className="nav-item">
+              <a className="nav-link" href="/">
                 Menu 3
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/">
+            <li className="nav-item">
+              <a className="nav-link" href="/">
                 Menu 4
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/">
+            <li className="nav-item">
+              <a className="nav-link" href="/">
                 Menu 5
               </a>
             </li>

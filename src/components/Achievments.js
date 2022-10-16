@@ -1,7 +1,7 @@
 import React from "react";
 
 const Achievments = () => {
-  return <div>Achievments</div>;
+  return <div className="bg-black">Achievments</div>;
 };
 
 export default Achievments;
