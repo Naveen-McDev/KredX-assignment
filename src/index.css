@@ -12,14 +12,19 @@ code {
     monospace;
 }
 
-a {
-  color: black !important;
-  font-size: large !important;
-}
-
+/* -------------- Style for Navbar Component starts------------ */
 .navbar {
   height: 70px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+
+.navbar a {
+  color: black !important;
+  font-size: large !important;
 }
 
 .nav__logo {
@@ -35,3 +40,21 @@ a {
   border-radius: 15px;
   background-color: rgba(164, 166, 167, 0.273) !important;
 }
+
+/* -------------- Style for Navbar Component ends------------ */
+
+/* -------------- Style for Hero Component starts------------ */
+.hero__container {
+  width: 100%;
+  height: 92vh !important;
+
+  /* margin-top: -80px; */
+}
+
+.hero__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* -------------- Style for Hero Component ends------------ */
