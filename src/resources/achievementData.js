@@ -1,3 +1,6 @@
+// data for the achievements sections
+
+// data change in this file affects the respective UI component
 export const achievements = [
   {
     title: "1 Million",

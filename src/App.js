@@ -5,8 +5,10 @@ import Home from "./pages/Home";
 function App() {
   return (
     <BrowserRouter>
+      {/*Layout wrapper */}
       <Layout>
         <Routes>
+          {/* addition menu routes comes here */}
           <Route path="/" element={<Home />} />
         </Routes>
       </Layout>

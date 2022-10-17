@@ -5,9 +5,11 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light px-5">
       <div className="container-fluid">
+        {/* brand logo */}
         <a className="navbar-brand d-flex align-items-center" href="/">
           <img src={brandLogo} alt="brand-logo" className="nav__logo" />
         </a>
+        {/* toggle btn */}
         <button
           className="navbar-toggler"
           type="button"
@@ -23,6 +25,7 @@ const Navbar = () => {
           className="collapse navbar-collapse justify-content-end"
           id="navbarNav"
         >
+          {/* navigation menu links */}
           <ul className="navbar-nav mr-auto gap-3">
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="/">

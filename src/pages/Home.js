@@ -4,8 +4,10 @@ import Features from "../components/Features";
 import ContactUs from "../components/ContactUs";
 import Achievments from "../components/Achievments";
 
+// home screen
 const Home = () => {
   return (
+    // components for the home screen
     <>
       <Hero />
       <Features />

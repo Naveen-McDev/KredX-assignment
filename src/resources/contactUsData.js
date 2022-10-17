@@ -1,3 +1,6 @@
+// data for the contact us sections
+
+// data change in this file affects the respective UI component
 export const contactUsData = [
   {
     title: "INDIA",
